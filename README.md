@@ -1,6 +1,4 @@
-## gravity-ui-example
-
-Project template made with Gravity UI
+## Project template made with Gravity UI
 
 ### Start development with this commands:
 
