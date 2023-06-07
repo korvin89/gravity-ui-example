@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "outDir": "../../dist/server",
+    "baseUrl": ".",
+    "paths": {
+      "~server/*": ["*"]
+    }
+  },
+  "include": ["**/*"],
+  "exclude": []
+}

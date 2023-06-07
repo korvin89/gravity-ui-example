@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig",
+    "include": ["**/*"],
+    "exclude": [],
+    "compilerOptions": {
+      "module": "ESNext",
+      "baseUrl": ".",
+      "paths": {
+        "~ui/*": ["*"]
+      },
+      "isolatedModules": true,
+      "jsx": "react-jsx"
+    }
+}

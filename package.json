@@ -1,0 +1,39 @@
+{
+  "name": "gravity-ui-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "app-builder dev",
+    "build": "app-builder build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korvin89/gravity-ui-example.git"
+  },
+  "author": "korvin89",
+  "license": "ISC",
+  "homepage": "https://github.com/korvin89/gravity-ui-example#readme",
+  "dependencies": {
+    "@gravity-ui/app-layout": "^1.2.0",
+    "@gravity-ui/expresskit": "^0.3.0",
+    "@gravity-ui/nodekit": "^0.2.0",
+    "@gravity-ui/uikit": "^4.15.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@gravity-ui/app-builder": "^0.4.3",
+    "@gravity-ui/eslint-config": "^2.1.1",
+    "@gravity-ui/prettier-config": "^1.0.1",
+    "@gravity-ui/stylelint-config": "^2.0.0",
+    "@gravity-ui/tsconfig": "^1.0.0",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8",
+    "stylelint": "^14.16.1",
+    "typescript": "^4.9.5"
+  }
+}

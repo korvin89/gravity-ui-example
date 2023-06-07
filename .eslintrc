@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "@gravity-ui/eslint-config",
+        "@gravity-ui/eslint-config/client",
+        "@gravity-ui/eslint-config/prettier",
+        "@gravity-ui/eslint-config/a11y"
+    ],
+    "root": true,
+    "rules": {
+        "react/jsx-fragments": ["error", "element"],
+        "react/react-in-jsx-scope": 0
+    }
+}

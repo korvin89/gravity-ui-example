@@ -1,0 +1,14 @@
+{
+    "extends": "@gravity-ui/tsconfig",
+    "compilerOptions": {
+      "target": "ES2020",
+      "noErrorTruncation": true,
+      "resolveJsonModule": true,
+      "noUncheckedIndexedAccess": true,
+      "experimentalDecorators": false,
+      "strictNullChecks": true,
+      "noImplicitAny": true,
+      "outDir": "dist"
+    },
+    "exclude": ["src", "dist"]
+}
